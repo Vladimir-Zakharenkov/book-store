@@ -5,4 +5,13 @@
     <RootNamespace>Book_store.Web</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\domain\Book-store\Book-store.csproj" />
+    <ProjectReference Include="..\..\infrastructure\Book-store.Memory\Book-store.Memory.csproj" />
+  </ItemGroup>
+
 </Project>
